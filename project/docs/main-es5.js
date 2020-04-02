@@ -47,7 +47,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n<div class=\"d-flex flex-column align-items-center\">\n  <div *ngFor=\"let item of items; let i = index;\" class=\"listItem\" (mouseover)=\"hoverIndex=i\" (mouseout)=\"hoverIndex=-1\" >\n    {{i}}\n    <input type=\"checkbox\" [hidden]=\"!(hoverIndex==i || selectedCheckBox==i)\" (change)=\"$event.target.checked ? selectedCheckBox=i : selectedCheckBox=-1\" >\n    hoverIndex:{{hoverIndex}} , selectedCheckBox:{{selectedCheckBox}}\n  </div>\n</div>\n";
+    __webpack_exports__["default"] = "\n<div class=\"d-flex flex-column align-items-center\">\n  <div *ngFor=\"let item of items; let i = index;\" class=\"listItem\" (mouseover)=\"hoverIndex=i\" (mouseout)=\"hoverIndex=-1\" >\n    {{i}}\n    <input type=\"checkbox\" [hidden]=\"!(hoverIndex==i || selectedCheckBox==i)\" (change)=\"$event.target.checked ? selectedCheckBox=i : selectedCheckBox=-1\" [checked]=\"selectedCheckBox==i ? true : false\" >\n    hoverIndex:{{hoverIndex}} , selectedCheckBox:{{selectedCheckBox}}\n  </div>\n</div>\n";
     /***/
   },
 
