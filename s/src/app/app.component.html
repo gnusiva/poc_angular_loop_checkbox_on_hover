@@ -1,8 +1,8 @@
 
 <div class="d-flex flex-column align-items-center">
   <div *ngFor="let item of items; let i = index;" class="listItem" (mouseover)="hoverIndex=i" (mouseout)="hoverIndex=-1" >
-    {{i}}
-    <input type="checkbox" [hidden]="!(hoverIndex==i)" (change)="selectedCheckBox=i" >
-    {{hoverIndex}}---{{selectedCheckBox}}
+    {{i}}=
+    <input type="checkbox" *ngIf="(hoverIndex==i)" [checked]="hoverIndex==i">
+    {{hoverIndex}} 
   </div>
 </div>
