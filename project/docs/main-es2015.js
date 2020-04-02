@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"d-flex flex-column align-items-center\">\n  <div *ngFor=\"let item of items; let i = index;\" class=\"listItem\" (mouseover)=\"hoverIndex=i\" (mouseout)=\"hoverIndex=-1\" >\n    {{i}}\n    <input type=\"checkbox\" [hidden]=\"!(hoverIndex==i || selectedCheckBox==i)\" (change)=\"$event.target.checked ? selectedCheckBox=i : selectedCheckBox=-1\" >\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"d-flex flex-column align-items-center\">\n  <div *ngFor=\"let item of items; let i = index;\" class=\"listItem\" (mouseover)=\"hoverIndex=i\" (mouseout)=\"hoverIndex=-1\" >\n    {{i}}\n    <input type=\"checkbox\" [hidden]=\"!(hoverIndex==i || selectedCheckBox==i)\" (change)=\"$event.target.checked ? selectedCheckBox=i : selectedCheckBox=-1\" >\n    hoverIndex:{{hoverIndex}} , selectedCheckBox:{{selectedCheckBox}}\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -323,7 +323,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".listItem {\n  width: 200px;\n  padding: 5px;\n}\n\n.listItem:hover {\n  background: grey;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaXZhbTEvRG9jdW1lbnRzL2dpdGh1Yi9wb2NfYW5ndWxhcl9sb29wX2NoZWNrYm94X29uX2hvdmVyL3Byb2plY3Qvc3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLFlBQUE7RUFDQSxZQUFBO0FDQUo7O0FER0E7RUFDSSxnQkFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4ubGlzdEl0ZW0ge1xuICAgIHdpZHRoOiAyMDBweDtcbiAgICBwYWRkaW5nOiA1cHg7XG59XG5cbi5saXN0SXRlbTpob3ZlciB7XG4gICAgYmFja2dyb3VuZDogZ3JleTtcbn1cbiIsIi5saXN0SXRlbSB7XG4gIHdpZHRoOiAyMDBweDtcbiAgcGFkZGluZzogNXB4O1xufVxuXG4ubGlzdEl0ZW06aG92ZXIge1xuICBiYWNrZ3JvdW5kOiBncmV5O1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".listItem {\n  width: 500px;\n  padding: 5px;\n}\n\n.listItem:hover {\n  background: grey;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaXZhbTEvRG9jdW1lbnRzL2dpdGh1Yi9wb2NfYW5ndWxhcl9sb29wX2NoZWNrYm94X29uX2hvdmVyL3Byb2plY3Qvc3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLFlBQUE7RUFDQSxZQUFBO0FDQUo7O0FER0E7RUFDSSxnQkFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4ubGlzdEl0ZW0ge1xuICAgIHdpZHRoOiA1MDBweDtcbiAgICBwYWRkaW5nOiA1cHg7XG59XG5cbi5saXN0SXRlbTpob3ZlciB7XG4gICAgYmFja2dyb3VuZDogZ3JleTtcbn1cbiIsIi5saXN0SXRlbSB7XG4gIHdpZHRoOiA1MDBweDtcbiAgcGFkZGluZzogNXB4O1xufVxuXG4ubGlzdEl0ZW06aG92ZXIge1xuICBiYWNrZ3JvdW5kOiBncmV5O1xufSJdfQ== */");
 
 /***/ }),
 
